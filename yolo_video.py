@@ -124,7 +124,6 @@ while True:
 				boxes.append([x, y, int(width), int(height)])
 				confidences.append(float(confidence))
 				classIDs.append(classID)
-
 	# apply non-maxima suppression to suppress weak, overlapping
 	# bounding boxes
 	idxs = cv2.dnn.NMSBoxes(boxes, confidences, args["confidence"],

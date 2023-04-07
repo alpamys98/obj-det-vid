@@ -1,0 +1,10 @@
+path: ../datasets/
+train: train
+val: val
+test:
+
+nc: 2
+
+names:
+ 0: nogun
+ 1: gun
